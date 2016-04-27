@@ -1,0 +1,213 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 80px;
+}
+header nav a{
+	font-weight: bold;
+}
+#logo img{
+	width: 120px;
+	height: 100%;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+header nav{
+	height: 70px;
+	width: 100%;
+}
+header nav ul li{
+	margin: 10px 10px 0 0;
+}
+.item-active{
+	background-image: url('../images/MB1.png');
+}
+#main .fpage{
+	margin: 10%;
+}
+#main .fpage h2{
+	font-weight: bold;
+}
+#main .fpage h2 span{
+	background: #F24242;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+#main .fpage p{
+	font-size: 16px;
+}
+#main .fpage button{
+	padding: 10px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3333333;
+    border-radius: 10px;
+    color: #F24242;
+    background-color: #ffffff;
+    border-color: #F24242;
+}
+.row{
+	min-height: 500px;
+	border: 1px solid black;
+}
+
+/* About style */
+#about{
+	background: #F2F2F2;
+}
+#about h2{
+	text-align: center;
+	font-weight: 300;
+	margin: 40px 0;
+}
+#about img{
+	width: 50px;
+	height: 50px;
+	margin: 5% 42%;
+}
+#about p{
+	text-align: center;
+	line-height: .5;
+	font-size: 16px;
+}
+#about .col-md-4{
+	margin-bottom: 50px;
+}
+
+/* Service style */
+#service h2{
+	text-align: center;
+	font-weight: 300;
+	margin: 40px 0;
+}
+#service .thumbnail{
+	min-height: 500px;
+}
+#service h3{
+	font-weight: 300;
+	text-align: center;
+}
+#service img{
+	width: 80%;
+	height: 200px;
+	margin: 30px 10%;
+}
+#service p{
+	margin: 10px 0 10px 30px;
+}
+#service .btn{
+	border: 2px solid black;
+	padding: 10px 30px;
+	margin: 30px 25%;
+	font-size: 20px;
+}
+
+/* Portfolio */
+#portfolio{
+	background: #F2F2F2;
+}
+#portfolio h2{
+	text-align: center;
+	font-weight: 300;
+	margin: 40px 0;
+}
+#portfolio img{
+	width: 300px;
+	margin-bottom: 30px;
+}
+
+/* Clients style */
+.clients{
+	min-height: 400px;
+	width: 100%;
+}
+.clients h2{
+	text-align: center;
+	font-weight: 300;
+	margin: 40px 0;
+}
+.clients img{
+	width: 180px;
+	height: 180px;
+	margin: 50px;
+}
+
+/* Order style */
+#order{
+	background: #F2F2F2;
+	min-height: 300px;
+}
+#order div h2{
+	font-weight: 300;
+	text-align: center;
+}
+#order div h2 span{
+	color: #0292DB;
+}
+#order div button{
+	padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #0193DE;
+    border-color: #0193DE;
+    margin: 100px 0 0 100px;
+}
+
+/* Contacts style */
+#contacts{
+	background: #2C3339;
+	color: #FFFFFF;
+	min-height: 500px;
+}
+#contacts h2{
+	font-weight: 300;
+	margin-top: 30px;
+}
+#contacts .adresse{
+	margin-top: 200px;	
+}
+#contacts .tel{
+	margin-top: 30px;
+}
+#contacts p{
+	font-weight: 300;
+	font-size: 18px;
+}
+#contacts .map{
+	margin-top: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+/* Copyright style */
+#copyright{
+	color: #818588;
+	background: #272E34;
+	width: 100%;
+	height: 80px;
+}
+#copyright img{
+	width: 150px;
+	margin-top: 25px;
+	float: right;
+}
+#copyright p{
+	margin-top: 30px;
+	text-align: center;
+}
+#copyright a{
+	color: #818588;
+	float: right;
+	text-decoration: none;
+	text-align: center;
+	margin: 30px 30px 0 0;
+}
+#copyright a:hover{
+	color: #ffffff;
+}
